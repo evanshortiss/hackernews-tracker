@@ -1,0 +1,18 @@
+{
+  "name": "podman-desktop-to-vps-deployment",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "private": true,
+  "author": "Evan Shortiss",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "barelog": "^0.2.0",
+    "timestring": "^7.0.0"
+  }
+}
