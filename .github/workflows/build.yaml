@@ -1,5 +1,6 @@
 name: Build Node.js Container
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
