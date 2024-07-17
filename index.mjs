@@ -49,7 +49,7 @@ async function refreshTopStory () {
       // Record this top story ID to avoid reprinting it if it remains top
       previousTopStoryId = topStoryDetails.id
 
-      log(`The latest top story is:\n${JSON.stringify(topStoryDetails, null, 2)}`)
+      log(`The latest top story is:\n${topStoryDetails.title} (${topStoryDetails.url})`)
     }
   } catch (e) {
     log('Error refreshing top story:')
