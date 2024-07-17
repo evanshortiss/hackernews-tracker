@@ -23,7 +23,7 @@ jobs:
         id: build-image
         uses: redhat-actions/buildah-build@v2
         with:
-          image: podman-desktop-to-vps
+          image: evanshortiss/podman-desktop-to-vps
           tags: latest ${{ github.sha }}
           containerfiles: |
             ./Containerfile
