@@ -1,5 +1,22 @@
-# Podman Desktop to VPS
+# Hacker News Top Story Tracker
 
-This repository is associated with a blogpost that demonstrates to how develop
-containers locally using Podman Desktop, then deploy those containers on a VPS.
+This repository is a companion the the "Podman Desktop to Production" article
+on [developers.redhat.com](https://developers.redhat.com).
 
+## Local Development
+
+To run this application locally you need Node.js v20 or newer. If you're using
+[nvm](https://nvm.sh) simply run `nvm use` from the root of this repository to
+use the correct Node.js version.
+
+Install dependencies using `npm`
+
+```bash
+npm install
+```
+
+Start the application using `node`
+
+```bash
+node index.mjs
+```
