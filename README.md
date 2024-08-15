@@ -6,7 +6,7 @@ on [developers.redhat.com](https://developers.redhat.com).
 ## Local Development
 
 To run this application locally you need Node.js v20 or newer. If you're using
-[nvm](https://nvm.sh) simply run `nvm use` from the root of this repository to
+[nvm](https://nvm.sh) simply run `nvm install` and `nvm use` from the root of this repository to
 use the correct Node.js version.
 
 Install dependencies using `npm`
